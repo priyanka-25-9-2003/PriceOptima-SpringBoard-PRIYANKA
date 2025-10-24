@@ -1,4 +1,5 @@
 # AI-PriceOptima-SpringBoard
+
 # Project Objective:
 To design and implement a machine learning–driven dynamic pricing system that adjusts prices in real-time or periodically to maximize revenue and maintain competitiveness. The system will use historical sales and inventory data to predict optimal prices using advanced ML techniques. By ensuring adaptability and transparency, the platform aims to help businesses increase profitability while preserving customer trust.
 
@@ -25,11 +26,17 @@ In ML, KPIs are metrics that tell us how well the model or project is performing
 🔹Required Python Libraries: numpy, pandas, scikit-learn, matplotlib, seaborn, scipy, xgboost, lightgbm,  joblib
 
 ## Milestone 2: Data Ingestion Pipeline
+
 Objective: Build daily data ingestion workflow.
+
  Deliverables:
+
 o Sales history and inventory ingestion pipeline.
+
  Evaluation:
+
 o Daily ingestion runs successfully without errors.
+
 
 🔹 What is a Pipeline?
 A pipeline means a series of steps or stages that data passes through —
@@ -52,11 +59,17 @@ A data ingestion pipeline is a specific type of pipeline that focuses on collect
 - The pipeline function runs the entire pipeline, from data ingestion to data output.
 
 # Milestone 3: Exploratory Data Analysis (EDA)
+
 Objective: Identify demand elasticity and customer segmentation.
+
  Deliverables:
+
 o Detailed EDA report with visualizations.
+
  Evaluation:
+
 o Insights approved before moving to feature engineering.
+
   
  
 -Check data quality (nulls, duplicates, types)
@@ -67,11 +80,17 @@ o Insights approved before moving to feature engineering.
 -Handle categorical variables encoding
 
 # Milestone 4: Baseline Pricing Engine
+
 Objective: Create a rule-based engine for initial comparison.
+
  Deliverables:
+
 o Time-based and inventory-based pricing rules.
+
  Evaluation:
+
 o Demonstrated simulated revenue lift over static pricing.
+
 
 # Baseline Pricing Engine
 A Baseline Pricing Engine is a fundamental component in pricing systems that determines the initial price of a product or service based on predefined rules, algorithms, or data. It serves as a starting point for further pricing adjustments, discounts, or optimizations.
