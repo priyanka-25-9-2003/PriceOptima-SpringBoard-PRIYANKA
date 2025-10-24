@@ -73,11 +73,17 @@ o Insights approved before moving to feature engineering.
   
  
 -Check data quality (nulls, duplicates, types)
+
 -Generate summary statistics (.describe())
+
 -Visualize distributions and detect outliers (IQR method, boxplots)
+
 -Analyze correlations using a heatmap
+
 -Explore feature relationships using scatter plots
+
 -Handle categorical variables encoding
+
 
 # Milestone 4: Baseline Pricing Engine
 
@@ -131,4 +137,19 @@ Examples:
 -Compare base_revenue vs dyn_revenue
 
 -Calculate revenue_lift_pct overall and by Time_of_Booking
+
+
+## Milestone 5: Advanced Model Development
+
+Objective: Train ML models for dynamic pricing.
+
+ Deliverables:
+
+o XGBoost and LightGBM models trained and evaluated.
+
+o Backtesting with historical data.
+
+ Evaluation:
+
+o Simulated revenue lift achieved and validated.
    
