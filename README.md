@@ -33,10 +33,7 @@ from raw input → cleaned data → processed data → final output (like a trai
 It’s called a “pipeline” because data flows through it step by step —
 just like water flows through connected pipes 🚰.
 
-
-🔹🔹🔹Data Ingestion Pipeline:
-
-A data ingestion pipeline is a specific type of pipeline that focuses on collecting, transforming, and loading data from various sources into a target system, such as a data warehouse, database, or data lake. The primary goal of a data ingestion pipeline is to move data from its source to a destination, often in a format that's suitable for analysis or processing.
+✅Key Achievements:
 
 🔹load_data is the data ingestion component, which loads the data into a pandas DataFrame.
 🔹 clean_data is the data cleaning component, which removes rows with missing values.
@@ -47,6 +44,14 @@ A data ingestion pipeline is a specific type of pipeline that focuses on collect
 
 # Milestone 3: Exploratory Data Analysis (EDA)
 
+# ✅ Objectives:
+
+- Advanced data analysis and pattern discovery
+-Outlier detection and handling
+=Correlation analysis and feature relationships
+-Data quality assessment
+
+ # ✅ Key Achievements:
 🔹Check data quality (nulls, duplicates, types)
 
 🔹Generate summary statistics (.describe())
@@ -65,45 +70,51 @@ A data ingestion pipeline is a specific type of pipeline that focuses on collect
 # Baseline Pricing Engine
 🔹🔹🔹Baseline pricing is a pricing strategy that establishes a standard price for a product or service based on certain criteria, such as costs, market conditions, or target profit margins. This baseline price serves as a reference point for future pricing decisions and can be adjusted based on various factors like demand, competition, or inventory level
 
-# dynamic pricing 
-Dynamic pricing means adjusting the price of a product or service in real time (or frequently) based on factors like demand, supply, time, competition, or customer behavior.
-The price changes automatically depending on the situation.
+✅ Objectives:
 
- # Time-Based Pricing Rules:
- 
-Time-based pricing rules involve adjusting prices based on the time of day, day of the week, or other temporal factors. This approach recognizes that demand for ride-hailing services varies over time and that prices can be optimized to reflect these fluctuations.
+- Build rule-based pricing baseline
+- Time-based and inventory-based pricing rules
+- Evaluate revenue lift vs static pricing
 
-
-# Inventory-Based Pricing Rules:
-
-Inventory-based pricing rules involve adjusting prices based on the availability of drivers or vehicles. This approach recognizes that the supply of drivers and vehicles can impact the quality and speed of service.
-Objectives:
-
-Key Achievements:
+✅ Key Achievements:
 
 🔹Rule-based pricing engine implemented
+
 🔹Time Based Pricing: Morning (378), Afternoon(3800),Evening (364), Night (367)
+
 🔹 Inventory adjustments based on demand-supply ratio
+
 🔹 Simulated Revenue lift achieved:  Static Revenue  ($372502.62 ), Dynamic Revenue ($454695.61), Revenue Lift (22.07%)
+
 🔹 Total baseline revenue: 372.502
 
 
 
 ## Milestone 5: Advanced Model Development
 
-# Objectives:
+# ✅ Objectives:
 
 - Train ML models (XGBoost & LightGBM) for dynamic pricing
+  
 - Advanced feature engineering
+
 - Hyperparameter optimization
+
 -  backtesting with historical data
+  
 -  Simulated Revenue lift validation
 
+# ✅Key Achievements:
 🔹 Two ML models trained and evaluated(XGBoost & LightGBM)
+
 🔹 Advanced feature engineering 
+
 🔹 Hyperparameter optimization implemented
+
 🔹 Standard Scaler model improvements 
+
 🔹  backtesting with historical data completed
+
 🔹 Simulated revenue lift achieved and validated
 
  🛠️ Tools Used
