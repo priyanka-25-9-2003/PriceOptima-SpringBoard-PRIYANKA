@@ -25,7 +25,7 @@ In ML, KPIs are metrics that tell us how well the model or project is performing
 
 🔹Required Python Libraries: numpy, pandas, scikit-learn, matplotlib, seaborn, scipy, xgboost, lightgbm,  joblib
 
-## Milestone 2: Data Ingestion Pipeline
+# Milestone 2: Data Ingestion Pipeline
 
 🔹Pipeline:
 A pipeline means a series of steps or stages that data passes through —
@@ -36,20 +36,30 @@ just like water flows through connected pipes 🚰.
 ✅Key Achievements:
 
 🔹load_data is the data ingestion component, which loads the data into a pandas DataFrame.
+
 🔹 clean_data is the data cleaning component, which removes rows with missing values.
+
 🔹transform_data is the data transformation component, which adds a new column 'Cost_Category' based on the 'Historical_Cost_of_Ride' column.
+
 🔹filter_data is the data filtering component, which filters rows where 'Number_of_Riders' is greater than 50.
+
 🔹output_data is the data output component, which prints the final transformed data.
+
 🔹The pipeline function runs the entire pipeline, from data ingestion to data output.
+
 
 # Milestone 3: Exploratory Data Analysis (EDA)
 
 # ✅ Objectives:
 
 - Advanced data analysis and pattern discovery
--Outlier detection and handling
-=Correlation analysis and feature relationships
+  
+- Outlier detection and handling
+  
+- Correlation analysis and feature relationships
+  
 -Data quality assessment
+
 
  # ✅ Key Achievements:
 🔹Check data quality (nulls, duplicates, types)
