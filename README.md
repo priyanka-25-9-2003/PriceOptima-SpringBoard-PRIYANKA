@@ -1,6 +1,6 @@
-# AI-PriceOptima-SpringBoard
+# 🚗 AI-PriceOptima-SpringBoard
 
-# Project Objective:
+# 🎯 Project Objective:
 To design and implement a machine learning–driven dynamic pricing system that adjusts prices in real-time or periodically to maximize revenue and maintain competitiveness. The system will use historical sales and inventory data to predict optimal prices using advanced ML techniques. By ensuring adaptability and transparency, the platform aims to help businesses increase profitability while preserving customer trust.
 
 # Milestone 1: Requirements & Data Preparation
@@ -27,18 +27,7 @@ In ML, KPIs are metrics that tell us how well the model or project is performing
 
 ## Milestone 2: Data Ingestion Pipeline
 
-Objective: Build daily data ingestion workflow.
-
- Deliverables:
-
-o Sales history and inventory ingestion pipeline.
-
- Evaluation:
-
-o Daily ingestion runs successfully without errors.
-
-
-🔹 What is a Pipeline?
+🔹Pipeline:
 A pipeline means a series of steps or stages that data passes through —
 from raw input → cleaned data → processed data → final output (like a trained ML model or report).
 It’s called a “pipeline” because data flows through it step by step —
@@ -49,52 +38,29 @@ just like water flows through connected pipes 🚰.
 
 A data ingestion pipeline is a specific type of pipeline that focuses on collecting, transforming, and loading data from various sources into a target system, such as a data warehouse, database, or data lake. The primary goal of a data ingestion pipeline is to move data from its source to a destination, often in a format that's suitable for analysis or processing.
 
-- load_data is the data ingestion component, which loads the data into a pandas DataFrame.
-- clean_data is the data cleaning component, which removes rows with missing values.
-- transform_data is the data transformation component, which adds a new column 'Cost_Category' based on the 'Historical_Cost_of_Ride' column.
-- filter_data is the data filtering component, which filters rows where 'Number_of_Riders' is greater than 50.
-- output_data is the data output component, which prints the final transformed data.
-- The pipeline function runs the entire pipeline, from data ingestion to data output.
+🔹load_data is the data ingestion component, which loads the data into a pandas DataFrame.
+🔹 clean_data is the data cleaning component, which removes rows with missing values.
+🔹transform_data is the data transformation component, which adds a new column 'Cost_Category' based on the 'Historical_Cost_of_Ride' column.
+🔹filter_data is the data filtering component, which filters rows where 'Number_of_Riders' is greater than 50.
+🔹output_data is the data output component, which prints the final transformed data.
+🔹The pipeline function runs the entire pipeline, from data ingestion to data output.
 
 # Milestone 3: Exploratory Data Analysis (EDA)
 
-Objective: Identify demand elasticity and customer segmentation.
+🔹Check data quality (nulls, duplicates, types)
 
- Deliverables:
+🔹Generate summary statistics (.describe())
 
-o Detailed EDA report with visualizations.
+🔹Visualize distributions and detect outliers (IQR method, boxplots)
 
- Evaluation:
+🔹Analyze correlations using a heatmap
 
-o Insights approved before moving to feature engineering.
+🔹Explore feature relationships using scatter plots
 
-  
- 
--Check data quality (nulls, duplicates, types)
-
--Generate summary statistics (.describe())
-
--Visualize distributions and detect outliers (IQR method, boxplots)
-
--Analyze correlations using a heatmap
-
--Explore feature relationships using scatter plots
-
--Handle categorical variables encoding
+🔹Handle categorical variables encoding
 
 
 # Milestone 4: Baseline Pricing Engine
-
-Objective: Create a rule-based engine for initial comparison.
-
- Deliverables:
-
-o Time-based and inventory-based pricing rules.
-
- Evaluation:
-
-o Demonstrated simulated revenue lift over static pricing.
-
 
 # Baseline Pricing Engine
 🔹🔹🔹Baseline pricing is a pricing strategy that establishes a standard price for a product or service based on certain criteria, such as costs, market conditions, or target profit margins. This baseline price serves as a reference point for future pricing decisions and can be adjusted based on various factors like demand, competition, or inventory level
@@ -111,28 +77,43 @@ Time-based pricing rules involve adjusting prices based on the time of day, day 
 # Inventory-Based Pricing Rules:
 
 Inventory-based pricing rules involve adjusting prices based on the availability of drivers or vehicles. This approach recognizes that the supply of drivers and vehicles can impact the quality and speed of service.
+Objectives:
 
+Key Achievements:
 
--Compute dynamic price (dyn_price) using multipliers
+🔹Rule-based pricing engine implemented
+🔹Time Based Pricing: Morning (378), Afternoon(3800),Evening (364), Night (367)
+🔹 Inventory adjustments based on demand-supply ratio
+🔹 Simulated Revenue lift achieved:  Static Revenue  ($372502.62 ), Dynamic Revenue ($454695.61), Revenue Lift (22.07%)
+🔹 Total baseline revenue: 372.502
 
--Simulate revenue and quantity changes (price elasticity)
-
--Compare base_revenue vs dyn_revenue
-
--Calculate revenue_lift_pct overall and by Time_of_Booking
 
 
 ## Milestone 5: Advanced Model Development
 
-Objective: Train ML models for dynamic pricing.
+# Objectives:
 
- Deliverables:
+- Train ML models (XGBoost & LightGBM) for dynamic pricing
+- Advanced feature engineering
+- Hyperparameter optimization
+-  backtesting with historical data
+-  Simulated Revenue lift validation
 
-o XGBoost and LightGBM models trained and evaluated.
+🔹 Two ML models trained and evaluated(XGBoost & LightGBM)
+🔹 Advanced feature engineering 
+🔹 Hyperparameter optimization implemented
+🔹 Standard Scaler model improvements 
+🔹  backtesting with historical data completed
+🔹 Simulated revenue lift achieved and validated
 
-o Backtesting with historical data.
+ 🛠️ Tools Used
 
- Evaluation:
+Languages & Libraries:Python · Pandas · NumPy · Matplotlib · Seaborn · Scikit-learn
+Development Environment: Jupyter Notebook, VS Code
 
-o Simulated revenue lift achieved and validated.
-   
+👩‍💻 About the Developer
+Developed by: K.Priyanka
+
+🏷️ Repository Details
+Branch: AI_Price_Optima_PRIYANKA
+Status: 🚧 Ongoing Development
