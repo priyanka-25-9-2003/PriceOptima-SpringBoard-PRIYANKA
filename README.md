@@ -44,8 +44,6 @@ from raw input → cleaned data → processed data → final output (like a trai
 It’s called a “pipeline” because data flows through it step by step —
 just like water flows through connected pipes 🚰.
 
-🔹 Where Pipelines Are Used?
-Pipelines are used wherever data or machine learning processes need to be automated, repeated, or handled step by step.
 
 🔹🔹🔹Data Ingestion Pipeline:
 
@@ -99,17 +97,7 @@ o Demonstrated simulated revenue lift over static pricing.
 
 
 # Baseline Pricing Engine
-A Baseline Pricing Engine is a fundamental component in pricing systems that determines the initial price of a product or service based on predefined rules, algorithms, or data. It serves as a starting point for further pricing adjustments, discounts, or optimizations.
-
-🔹🔹🔹Baseline pricing is a pricing strategy that establishes a standard price for a product or service based on certain criteria, such as costs, market conditions, or target profit margins. This baseline price serves as a reference point for future pricing decisions and can be adjusted based on various factors like demand, competition, or inventory levels.
-
-🔹🔹🔹Rule-Based Engine Steps:
-
-1. Define Rules: Identify the conditions and actions for each rule. For example:
-    - Rule 1: If time is peak hour (7-9 am), then increase price by 10%.
-    - Rule 2: If inventory level is low (< 20), then increase price by 5%.
-2. Implement Rules: Write code to represent each rule. This can be done using if-else statements, dictionaries, or even a rules engine library.
-3. Evaluate Rules: Create a function that takes in input data (e.g., time, inventory level) and applies the rules to determine the output (e.g., price adjustment).
+🔹🔹🔹Baseline pricing is a pricing strategy that establishes a standard price for a product or service based on certain criteria, such as costs, market conditions, or target profit margins. This baseline price serves as a reference point for future pricing decisions and can be adjusted based on various factors like demand, competition, or inventory level
 
 # dynamic pricing 
 Dynamic pricing means adjusting the price of a product or service in real time (or frequently) based on factors like demand, supply, time, competition, or customer behavior.
@@ -118,17 +106,12 @@ The price changes automatically depending on the situation.
  # Time-Based Pricing Rules:
  
 Time-based pricing rules involve adjusting prices based on the time of day, day of the week, or other temporal factors. This approach recognizes that demand for ride-hailing services varies over time and that prices can be optimized to reflect these fluctuations.
-Examples:
-1. Peak Hour Pricing: Increase prices during rush hour or peak travel times when demand is high.
-2. Off-Peak Pricing: Decrease prices during off-peak hours when demand is low.
-3. Surge Pricing: Temporarily increase prices during extreme demand periods, such as holidays or special events.
+
 
 # Inventory-Based Pricing Rules:
 
 Inventory-based pricing rules involve adjusting prices based on the availability of drivers or vehicles. This approach recognizes that the supply of drivers and vehicles can impact the quality and speed of service.
-Examples:
-1. Low Inventory Pricing: Increase prices when there are few available drivers or vehicles, indicating high demand and limited supply.
-2. High Inventory Pricing: Decrease prices when there are many available drivers or vehicles, indicating low demand and excess supply.
+
 
 -Compute dynamic price (dyn_price) using multipliers
 
